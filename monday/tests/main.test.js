@@ -8,4 +8,12 @@ describe('my first suite', () => {
     expect(main.sum(1,1)).not.toBe(3);
   });
 });
+
+describe('my second suite', () => { 
+  test('this is my second test', () => {
+    expect(main.subtract(10,5)).toBe(5);
+    expect(main.subtract(100,50)).toBe(50);
+    expect(main.subtract(15,5)).not.toBe(15);
+  });
+});
   
