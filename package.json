@@ -13,7 +13,13 @@
     "node-fetch": "^3.2.6"
   },
   "devDependencies": {
-    "node": "^18.18.2"
+    "node": "^18.18.2",
+    "node18": "^1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-1": "nodemon ./monday/src/main.js",
+    "dev": "node ./monday/src/main.js"
   },
   "description": ""
 }
