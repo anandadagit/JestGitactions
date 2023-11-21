@@ -20,5 +20,4 @@ jobs:
         with:
           node-version: 18
       - run: npm ci
-      - run: npm test
-      - run: echo "After tests, before next step"
+      - run: npm test    
