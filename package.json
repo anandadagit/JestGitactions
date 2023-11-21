@@ -15,7 +15,7 @@
     "node18": "^1.0.0"
   },
   "scripts": {
-    "test": "echo 'Running tests'",
+    "test": "jest --passWithNoTests --watchAll --config ./jest.config.json",
     "dev-1": "nodemon ./monday/src/main.js",
     "dev": "node ./monday/src/main.js"
   },
